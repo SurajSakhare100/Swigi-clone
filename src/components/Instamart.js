@@ -1,32 +1,33 @@
 import React from "react";
 import "./Instamart.css"; // Add your CSS file
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { Link } from 'react-router-dom';
 
-const categories = [
-  { img: "../../image/frui2.avif", title: "Fresh Fruit" },
-  { img: "../../image/veg.avif", title: "Fresh Vegetables" },
-  { img: "../../image/fruit4.avif", title: "Atta, Rice, and Dals" },
-  { img: "../../image/fruit5.avif", title: "Masalas and Dry Fruits" },
-  { img: "../../image/fruit3.avif", title: "Dairy, Bread, and Eggs" },
-  { img: "../../image/frui5.avif", title: "Oils and Ghee" },
-  { img: "../../image/frui9.avif", title: "Meat and Seafood" },
-  { img: "../../image/fruit6.avif", title: "Munchies" },
-  { img: "../../image/fruit8.avif", title: "Cold Drinks and Juices" },
-  { img: "../../image/fruit7.avif", title: "Sweet Tooth" },
-  { img: "../../image/baby.avif", title: "Baby Care" },
-  { img: "../../image/bath.avif", title: "Bath, Body, and Hair" },
-  { img: "../../image/beauty.avif", title: "Beauty and Grooming" },
-  { img: "../../image/cereal.avif", title: "Cereal and Breakfast" },
-  { img: "../../image/cleaning.avif", title: "Cleaning Essential" },
-  { img: "../../image/home.avif", title: "Home and Kitchen" },
-  { img: "../../image/hygiene.avif", title: "Hygiene and Wellness" },
-  { img: "../../image/instantfood.avif", title: "Instant and Frozen Food" },
-  { img: "../../image/office.avif", title: "Office and Electricals" },
-  { img: "../../image/paan.avif", title: "Paan Corner" },
-  { img: "../../image/sauces.avif", title: "Sauces and Spread" },
-  { img: "../../image/tea.avif", title: "Tea, Coffee, and More" },
-  { img: "../../image/pet.avif", title: "Pet Supplies" },
-  { img: "../../image/biscuits.avif", title: "Biscuits and Cakes" },
+const categories = () => [
+  { img: "../../images/image/frui2.avif", title: "Fresh Fruit" },
+  { img: "../../images/image/veg.avif", title: "Fresh Vegetables" },
+  { img: "../../images/image/fruit4.avif", title: "Atta, Rice, and Dals" },
+  { img: "../../images/image/fruit5.avif", title: "Masalas and Dry Fruits" },
+  { img: "../../images/image/fruit3.avif", title: "Dairy, Bread, and Eggs" },
+  { img: "../../images/image/frui5.avif", title: "Oils and Ghee" },
+  { img: "../../images/image/frui9.avif", title: "Meat and Seafood" },
+  { img: "../../images/image/fruit6.avif", title: "Munchies" },
+  { img: "../../images/image/fruit8.avif", title: "Cold Drinks and Juices" },
+  { img: "../../images/image/fruit7.avif", title: "Sweet Tooth" },
+  { img: "../../images/image/baby.avif", title: "Baby Care" },
+  { img: "../../images/image/bath.avif", title: "Bath, Body, and Hair" },
+  { img: "../../images/image/beauty.avif", title: "Beauty and Grooming" },
+  { img: "../../images/image/cereal.avif", title: "Cereal and Breakfast" },
+  { img: "../../images/image/cleaning.avif", title: "Cleaning Essential" },
+  { img: "../../images/image/home.avif", title: "Home and Kitchen" },
+  { img: "../../images/image/hygiene.avif", title: "Hygiene and Wellness" },
+  { img: "../../images/image/instantfood.avif", title: "Instant and Frozen Food" },
+  { img: "../../images/image/office.avif", title: "Office and Electricals" },
+  { img: "../../images/image/paan.avif", title: "Paan Corner" },
+  { img: "../../images/image/sauces.avif", title: "Sauces and Spread" },
+  { img: "../../images/image/tea.avif", title: "Tea, Coffee, and More" },
+  { img: "../../images/image/pet.avif", title: "Pet Supplies" },
+  { img: "../../images/image/biscuits.avif", title: "Biscuits and Cakes" },
 ];
 
 const Instamart = () => {
@@ -58,7 +59,7 @@ const Instamart = () => {
         ))}
       </div>
 
-      {/* Footer */}
+      {/* Footer
       <div className="footer">
         <img src="../../image/App_download_banner.avif" alt="Download App" />
         <img
@@ -110,7 +111,7 @@ const Instamart = () => {
           <i className="fa fa-tags"></i>
           <i className="fa fa-user"></i>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

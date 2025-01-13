@@ -76,7 +76,7 @@ const cities = [
 "Order food online in Etawah",
 "Order food online in Porbandar",
 "Order food online in Nadiad",
-"Order food online in Sagar",,
+"Order food online in Sagar",
 "Order food online in Morbi",
 "Order food online in Chhindwara",
 "Order food online in Tumakuru",

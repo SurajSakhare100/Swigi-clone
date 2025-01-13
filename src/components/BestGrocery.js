@@ -30,24 +30,18 @@ const BestGroceries = () => {
   const [visibleCount, setVisibleCount] = useState(9);
 
   const handleShow_more = () => {
-    try {
-      setVisibleCount((prevCount) => prevCount + 4);
-    } catch (error) {
-      console.error('Error updating visible count:', error);
-    }
+    setVisibleCount((prevCount) => prevCount + 4);
   };
 
   return (
     <div>
       <h2>Cities with groceries delivery</h2>
-
       <div className='button-grid'>
         {cities.slice(0, visibleCount).map((item, index) =>
           <button key={index} className='city-button'>{item}</button>
         )}
         <button onClick={handleShow_more}>Show more</button>
       </div>
-
     </div>
   );
 };

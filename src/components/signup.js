@@ -1,4 +1,3 @@
-// Signup.js
 import React from "react";
 import "./SidePanelWithForm.css";
 import "./signup.css";
@@ -6,6 +5,7 @@ import "./signup.css";
 const Signup = () => {
   return (
     <form className="modal-form">
+      {/* Full Name Input */}
       <div className="input-group">
         <input
           type="text"
@@ -20,6 +20,7 @@ const Signup = () => {
         </label>
       </div>
 
+      {/* Phone Number Input */}
       <div className="input-group">
         <input
           type="tel"
@@ -31,10 +32,11 @@ const Signup = () => {
           required
         />
         <label htmlFor="mobile" className="input-label">
-          Phone number
+          Phone Number
         </label>
       </div>
 
+      {/* Email Input */}
       <div className="input-group">
         <input
           type="email"
@@ -49,12 +51,14 @@ const Signup = () => {
         </label>
       </div>
 
+      {/* Signup Button */}
       <div className="login-button-wrapper">
         <button type="submit" className="login-button">
           Signup
         </button>
       </div>
 
+      {/* Terms & Conditions */}
       <div className="terms-conditions">
         By clicking on Signup, I accept the{" "}
         <a href="/terms-and-conditions" className="terms-link">
